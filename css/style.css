@@ -1,0 +1,57 @@
+                                                        /* Basic css part start */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+                                                        /* Basic css part ends */
+
+                                                        /* navber css part start */
+
+.nav1 a:hover{
+    border-bottom: 2px solid red;
+}
+
+                                                         /* navber css part ends */
+
+                                                         /* section2 css part start */
+
+.images img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50% !important;
+}
+
+                                                         /* section2 css part ends */
+
+/* footer css part style */
+.footer{
+    background: #1B2B4D;
+}
+.sm h2{
+width: 220px;
+border-bottom: 4px solid white;
+}
+.skk i:hover{
+color: red !important;
+}
+.sk span:hover{
+    color: #e73e3e !important;
+}
+.sakm{
+    border-radius: 50%;
+}
+.sa {
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.sa i:hover{
+    color: #e73e3e !important;
+
+}
+p {
+    margin-top: 20px;
+}
+/* footer css part ends */

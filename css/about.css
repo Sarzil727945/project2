@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*ul, ol{
+    list-style: none;
+}*/
+a, a:hover{
+    text-decoration: none;
+}
+img{
+    vertical-align: middle;
+}
+/*Basic css ends*/
+.nav1 a:hover{
+    border-bottom: 2px solid red;
+}
+
+/*nav3 strat*/
+        .nav3{
+            height: 55%;
+            margin-top: 60px;
+        }
+        .nav3-1{
+            color: white;
+        }
+        .nav3-1 h2{
+             font-style: italic;
+        }
+       
+/*nav3 ends*/
+
+/*nav4 strat*/
+        .img-fluid {
+            max-width: 100%;
+            height: 85.5%;
+            position: relative;
+            right: 5%;
+        }
+        .nav4 b, strong {
+            font-weight: bolder;
+            position: relative;
+            top: 10px;
+        }
+        
+        .nav4-1-2{
+            position: relative;
+            left: 2%;
+        }
+    @media(max-width: 991px){
+        .img-fluid {
+            max-width: 100%;
+            height: 100%;
+            position: relative;
+            right: 0%;
+        }
+        .nav4-1-2{
+            position: relative;
+            left: 0%;
+        }
+    }
+/*nav4 ends*/
+/*nav5 strat*/
+.fontsize{
+    font-size: 50px;
+}
+.bgcolor{
+    
+    height: 180px;
+}
+/*nav5 ends*/
+/*nav6 strat*/
+.nav6-2{
+    position: relative;
+    bottom: 60px;
+}
+ @media(max-width: 991px){
+   .nav6-2{
+    position: relative;
+    bottom: 0px;
+} 
+ }
+/*nav6 ends*/
+/*nav7 start*/
+    .nav7-1 p{
+        text-align: justify;
+    }
+    .nav7-1{
+        position:relative;
+        bottom: 130px;
+    }
+    .nav7-2{
+        position: relative;
+        bottom: 45px;
+    }
+
+@media(max-width: 991px){
+   .nav7-1{
+        position:relative;
+        bottom: 0px;
+    }
+    .nav7-2{
+        position: relative;
+        bottom: 0px;
+    }
+
+   }
+   .list{
+    list-style-type: 
+   } 
+   .round_border3{
+    border-radius: 15px;
+    padding-left: 10px;
+   }
+
+/*nav7 ends*/
+/* footer css part style */
+.footer{
+    background: #1B2B4D;
+}
+.sm h2{
+width: 220px;
+border-bottom: 4px solid white;
+}
+.skk i:hover{
+color: red !important;
+}
+.sk span:hover{
+    color: #e73e3e !important;
+}
+.sakm{
+    border-radius: 50%;
+}
+.sa {
+    width: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.sa i:hover{
+    color: #e73e3e !important;
+
+}
+/* footer css part ends */
